@@ -42,9 +42,7 @@ This project uses Conda for environment management. To set up the environment an
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Bruno-He/d100_d400_project.git
-
-    cd d100_d400_project
+    git clone https://github.com/Bruno-He/F550_final_project.git
     ```
 
 2.  **Create and activate the Conda environment:**

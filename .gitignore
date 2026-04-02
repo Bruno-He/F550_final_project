@@ -14,8 +14,9 @@ __pycache__/
 build/
 dist/
 
-# Ignore processed data only
-data/processed/
+# Keep data/processed folder, ignore its contents
+data/processed/*
+!data/processed/.gitkeep
 
 # OS files
 .DS_Store
