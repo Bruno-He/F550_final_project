@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "f550-final-project"
+version = "0.1.0"
+description = "Final project for F550 Applications of AI to Finance"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Blue Mars" }
+]
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "scikit-learn",
+  "nltk",
+  "regex",
+  "tqdm",
+  "requests",
+  "beautifulsoup4",
+  "pyarrow",
+  "openpyxl",
+  "datasets",
+  "transformers",
+  "torch",
+  "accelerate",
+  "sentencepiece",
+  "huggingface_hub"
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+include = ["src_ex1*", "src_ex2*"]
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

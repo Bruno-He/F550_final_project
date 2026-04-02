@@ -1,0 +1,26 @@
+name: f550_ex1_light
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - ipykernel
+  - notebook
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - nltk
+  - regex
+  - tqdm
+  - requests
+  - beautifulsoup4
+  - pyarrow
+  - openpyxl
+  - lxml 
+  - pip:
+      - yfinance
+      - e .

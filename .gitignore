@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Packaging / build
+*.egg-info/
+build/
+dist/
+
+# Ignore processed data only
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
